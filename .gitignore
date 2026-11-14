@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Saídas geradas pelo notebook (mantém a pasta no GitHub)
+output/*
+!output/.gitkeep
+
+# Editor e sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
